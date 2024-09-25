@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+body
+{
+    background-image: url("hot.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(189, 195, 124);
+    width: 100%;
+}
+ul {
+    display: inline-block;
+    padding-left: 120px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+}
+
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 120px;
+    color: rgb(97, 66, 23);
+    font-size: 25px;
+}
+.login {
+    display: inline-block;
+    padding-right: 0px;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    text-align: right;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(194, 234, 103);
+}
+.main {
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+}
+
+.main h1 {
+    font-size: 60px;
+    font-family: cursive;
+    color: rgb(89, 222, 237);
+}
+
+.size {
+    font-size: 30px;
+    color: azure;
+}
+
+.book {
+    font-size: 45px;
+    margin: auto;
+
+}
+
+.bk {
+    background-color: rgb(177, 79, 154);
+    padding: 17px;
+    color: rgb(112, 170, 240);
+    font-size: 14px;
+}
+.room{
+    padding-top: 1000px;
+    padding-bottom: 0%;
+    text-align: center;
+}
+.cards{
+   padding-top: 0px;
+    width: 30%;
+    margin: 20px;
+    display: inline-block;
+}
+.image img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.desc{
+    text-align: center;
+}
+.ser{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.con{
+    align-items: center;
+    padding-left: 15px;
+    padding: 20px;
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    background-color: antiquewhite;
+}
+.center{
+    text-align: center;
+    background-color: grey;
+}
